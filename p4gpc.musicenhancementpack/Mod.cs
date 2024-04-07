@@ -2,6 +2,7 @@
 using p4gpc.musicenhancementpack.Template;
 using Reloaded.Hooks.ReloadedII.Interfaces;
 using Reloaded.Mod.Interfaces;
+using BGME.Framework.Interfaces;
 
 namespace p4gpc.musicenhancementpack
 {
@@ -58,6 +59,91 @@ namespace p4gpc.musicenhancementpack
             // and some other neat features, override the methods in ModBase.
 
             // TODO: Implement some mod logic
+
+            var BGMEController = _modLoader.GetController<IBgmeApi>().TryGetTarget(out var bgmeApi);
+
+            var modDir = _modLoader.GetDirectoryForModId(_modConfig.ModId);
+
+            if (_configuration.ROTTTVersion == Config.ROTTT.Original)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "ROTTT_Base"));
+            }
+
+            if (_configuration.ROTTTVersion == Config.ROTTT.Reincarnation)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "ROTTT_NM"));
+            }
+
+            if (_configuration.FogVersion == Config.Fog.Original)
+            {
+            }
+
+            if (_configuration.FogVersion == Config.Fog.ATLUSKonishiRemix)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Fog_Konishi"));
+            }
+
+            if (_configuration.AquaVersion == Config.Aqua.Original)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Aqua_Original"));
+            }
+
+            if (_configuration.AquaVersion == Config.Aqua.Reload)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Aqua_Reload"));
+            }
+
+            if (_configuration.BacksideVersion == Config.Backside.Original)
+            {
+            }
+
+            if (_configuration.BacksideVersion == Config.Backside.LotusJuiceRemix)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Backside_LJ"));
+            }
+
+            if (_configuration.AriaVersion == Config.Aria.Original)
+            {
+            }
+
+            if (_configuration.AriaVersion == Config.Aria.Reload)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Aria_Reload"));
+            }
+
+            if (_configuration.TanakaVersion == Config.Tanaka.Original)
+            {
+            }
+
+            if (_configuration.TanakaVersion == Config.Tanaka.Reload)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Tanaka_Reload"));
+            }
+
+            if (_configuration.JoyVersion == Config.Joy.Original)
+            {
+            }
+
+            if (_configuration.JoyVersion == Config.Joy.Reload)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Joy_Reload"));
+            }
+
+            if (_configuration.EscapadeVersion == Config.Escapade.Original)
+            {
+            }
+
+            if (_configuration.EscapadeVersion == Config.Escapade.PersonaDancing)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Escapade_PersonaDancing"));
+            }
+
+            if (_configuration.EscapadeVersion == Config.Escapade.Reload)
+            {
+                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Escapade_Reload"));
+            }
+
+            bgmeApi.AddFolder(Path.Combine(modDir, "BGME"));
         }
 
         #region Standard Overrides

@@ -1,18 +1,18 @@
 {
   "ModId": "p4gpc.musicenhancementpack",
   "ModName": "Music Enhancement Pack",
-  "ModAuthor": "Pixelguin, rudiger__gb",
-  "ModVersion": "7.0.1",
+  "ModAuthor": "Pixelguin, rudiger__gb, Brawler",
+  "ModVersion": "8.0.0",
   "ModDescription": "A small collection of carefully-selected music enhancements.",
-  "ModDll": "",
+  "ModDll": "p4gpc.musicenhancementpack.dll",
   "ModIcon": "Preview.png",
   "ModR2RManagedDll32": "x86/p4gpc.musicenhancementpack.dll",
   "ModR2RManagedDll64": "x64/p4gpc.musicenhancementpack.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
   "Tags": [],
-  "CanUnload": null,
-  "HasExports": null,
+  "CanUnload": false,
+  "HasExports": false,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p4gpc.musicenhancementpack.ReleaseMetadata.json",
   "PluginData": {
@@ -135,9 +135,10 @@
   },
   "IsUniversalMod": false,
   "ModDependencies": [
+    "BGME.Framework",
+    "BGME.Framework.API",
     "p4gpc.inaba",
-    "p5rpc.modloader",
-    "BGME.Framework"
+    "p5rpc.modloader"
   ],
   "OptionalDependencies": [],
   "SupportedAppId": [

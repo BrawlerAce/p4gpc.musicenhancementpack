@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p4gpc.musicenhancementpack", "p4gpc.musicenhancementpack\p4gpc.musicenhancementpack.csproj", "{DF64285C-49F9-44DD-BC29-92B566D86086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p4gpc.musicenhancementpack", "p4gpc.musicenhancementpack\p4gpc.musicenhancementpack.csproj", "{DF64285C-49F9-44DD-BC29-92B566D86086}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BGME.Framework.Interfaces", "..\..\..\..\source\repos\BGME\BGME.Framework.Interfaces\BGME.Framework.Interfaces.csproj", "{B7E2F193-0248-4BE7-B37F-90B61294CE50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DF64285C-49F9-44DD-BC29-92B566D86086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF64285C-49F9-44DD-BC29-92B566D86086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF64285C-49F9-44DD-BC29-92B566D86086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E2F193-0248-4BE7-B37F-90B61294CE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E2F193-0248-4BE7-B37F-90B61294CE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E2F193-0248-4BE7-B37F-90B61294CE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E2F193-0248-4BE7-B37F-90B61294CE50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

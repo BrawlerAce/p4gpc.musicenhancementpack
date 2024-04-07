@@ -26,81 +26,95 @@ namespace p4gpc.musicenhancementpack.Configuration
             The `DefaultValue` attribute is used as part of the `Reset` button in Reloaded-Launcher.
         */
 
-        [DisplayName("String")]
-        [Description("This is a string.")]
-        [DefaultValue("Default Name")]
-        public string String { get; set; } = "Default Name";
-
-        [DisplayName("Int")]
-        [Description("This is an int.")]
-        [DefaultValue(42)]
-        public int Integer { get; set; } = 42;
-
-        [DisplayName("Bool")]
-        [Description("This is a bool.")]
-        [DefaultValue(true)]
-        public bool Boolean { get; set; } = true;
-
-        [DisplayName("Float")]
-        [Description("This is a floating point number.")]
-        [DefaultValue(6.987654F)]
-        public float Float { get; set; } = 6.987654F;
-
-        [DisplayName("Enum")]
-        [Description("This is an enumerable.")]
-        [DefaultValue(SampleEnum.ILoveIt)]
-        public SampleEnum Reloaded { get; set; } = SampleEnum.ILoveIt;
-
-        public enum SampleEnum
+        public enum ROTTT
         {
-            NoOpinion,
-            Sucks,
-            IsMediocre,
-            IsOk,
-            IsCool,
-            ILoveIt
+            Original,
+            Reincarnation,
+        }
+        public enum Fog
+        {
+            Original,
+            ATLUSKonishiRemix,
+        }
+        public enum Aqua
+        {
+            Original,
+            Reload,
+        }
+        public enum Backside
+        {
+            Original,
+            LotusJuiceRemix,
+        }
+        public enum Aria
+        {
+            Original,
+            Reload,
+        }
+        public enum Tanaka
+        {
+            Original,
+            Reload,
+        }
+        public enum Joy
+        {
+            Original,
+            Reload,
+        }
+        public enum Escapade
+        {
+            Original,
+            PersonaDancing,
+            Reload,
         }
 
-        [DisplayName("Int Slider")]
-        [Description("This is a int that uses a slider control similar to a volume control slider.")]
-        [DefaultValue(100)]
-        [SliderControlParams(
-            minimum: 0.0,
-            maximum: 100.0,
-            smallChange: 1.0,
-            largeChange: 10.0,
-            tickFrequency: 10,
-            isSnapToTickEnabled: false,
-            tickPlacement: SliderControlTickPlacement.BottomRight,
-            showTextField: true,
-            isTextFieldEditable: true,
-            textValidationRegex: "\\d{1-3}")]
-        public int IntSlider { get; set; } = 100;
+        [Category("Battles")]
+        [DisplayName("\"Reach Out To The Truth\" version")]
+        [Description("Plays during normal battles.\n\nOriginal: Plays the original version of \"Reach Out To The Truth\".\nReincarnation: Plays the Reincarnation version of \"Reach Out To The Truth\".")]
+        [DefaultValue(ROTTT.Reincarnation)]
+        public ROTTT ROTTTVersion { get; set; } = ROTTT.Reincarnation;
 
-        [DisplayName("Double Slider")]
-        [Description("This is a double that uses a slider control without any frills.")]
-        [DefaultValue(0.5)]
-        [SliderControlParams(minimum: 0.0, maximum: 1.0)]
-        public double DoubleSlider { get; set; } = 0.5;
+        [Category("Battles")]
+        [DisplayName("\"The Fog\" version")]
+        [Description("Plays during the final boss battle.\n\nOriginal: Plays the original version of \"The Fog\".\nATLUSKonishiRemix: Plays \"The Fog (ATLUS Konishi Remix)\" from Persona 4 Dancing.")]
+        [DefaultValue(Fog.Original)]
+        public Fog FogVersion { get; set; } = Fog.Original;
 
-        [DisplayName("File Picker")]
-        [Description("This is a sample file picker.")]
-        [DefaultValue("")]
-        [FilePickerParams(title: "Choose a File to load from")]
-        public string File { get; set; } = "";
+        [Category("Battles")]
+        [DisplayName("\"Aqua Invitation\" version")]
+        [Description("Plays during the superboss battle.\n\nOriginal: Plays the original version of \"Aqua Invitation\".\nReload: Plays \"Aqua Invitation\" from Persona 3 Reload.")]
+        [DefaultValue(Aqua.Original)]
+        public Aqua AquaVersion { get; set; } = Aqua.Original;
 
-        [DisplayName("Folder Picker")]
-        [Description("Opens a file picker but locked to only allow folder selections.")]
-        [DefaultValue("")]
-        [FolderPickerParams(
-            initialFolderPath: Environment.SpecialFolder.Desktop,
-            userCanEditPathText: false,
-            title: "Custom Folder Select",
-            okButtonLabel: "Choose Folder",
-            fileNameLabel: "ModFolder",
-            multiSelect: true,
-            forceFileSystem: true)]
-        public string Folder { get; set; } = "";
+        [Category("Locations")]
+        [DisplayName("\"Backside of the TV\" version")]
+        [Description("Plays inside the TV World when not in a dungeon or the Velvet Room.\n\nOriginal: Plays the original version of \"Backside of the TV\".\nLotusJuiceRemix: Plays \"Backside Of The TV (Lotus Juice Remix)\" from Persona 4 Dancing.")]
+        [DefaultValue(Backside.Original)]
+        public Backside BacksideVersion { get; set; } = Backside.Original;
+
+        [Category("Locations")]
+        [DisplayName("\"Poem for Everyone's Souls\" version")]
+        [Description("Plays during the superboss battle.\n\nOriginal: Plays the original version of \"Poem for Everyone's Souls\".\nReload: Plays \"Poem for Everyone's Souls -Reload-\" from Persona 3 Reload.")]
+        [DefaultValue(Aria.Original)]
+        public Aria AriaVersion { get; set; } = Aria.Original;
+
+        [Category("Events")]
+        [DisplayName("\"Jika Net Tanaka\" version")]
+        [Description("Plays on Tanaka's shopping channel.\n\nOriginal: Plays the original version of \"Jika Net Tanaka\".\nReload: Plays \"Jika Net Tanaka -Reload-\" from Persona 3 Reload.")]
+        [DefaultValue(Tanaka.Original)]
+        public Tanaka TanakaVersion { get; set; } = Tanaka.Original;
+
+        [Category("Events")]
+        [DisplayName("\"Joy\" version")]
+        [Description("Plays during the school trip.\n\nOriginal: Plays the original version of \"Joy\".\nReload: Plays \"Joy -Reload-\" from Persona 3 Reload.")]
+        [DefaultValue(Joy.Original)]
+        public Joy JoyVersion { get; set; } = Joy.Original;
+
+        [Category("Events")]
+        [DisplayName("Club Escapade Music")]
+        [Description("Plays during the school trip.\n\nOriginal: Plays the original music used in Persona 4 (\"P3 fes\").\nPersonaDancing: Plays a mix of several tracks from Persona 3 Dancing and Persona 5 Dancing.\nReload: Plays the club music from Persona 3 Reload, \"Everyone loves 1989\".")]
+        [DefaultValue(Escapade.PersonaDancing)]
+        public Escapade EscapadeVersion { get; set; } = Escapade.PersonaDancing;
     }
 
     /// <summary>

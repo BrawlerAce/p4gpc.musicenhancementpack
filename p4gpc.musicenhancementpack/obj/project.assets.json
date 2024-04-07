@@ -43,6 +43,16 @@
             "related": ".xml"
           }
         }
+      },
+      "BGME.Framework.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BGME.Framework.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BGME.Framework.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -95,10 +105,16 @@
         "reloaded.sharedlib.hooks.1.9.0.nupkg.sha512",
         "reloaded.sharedlib.hooks.nuspec"
       ]
+    },
+    "BGME.Framework.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../../../../../source/repos/BGME/BGME.Framework.Interfaces/BGME.Framework.Interfaces.csproj",
+      "msbuildProject": "../../../../../source/repos/BGME/BGME.Framework.Interfaces/BGME.Framework.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
+      "BGME.Framework.Interfaces >= 1.0.0",
       "Reloaded.Mod.Interfaces >= 2.4.0",
       "Reloaded.SharedLib.Hooks >= 1.9.0"
     ]
@@ -129,7 +145,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Brawler\\source\\repos\\BGME\\BGME.Framework.Interfaces\\BGME.Framework.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Brawler\\source\\repos\\BGME\\BGME.Framework.Interfaces\\BGME.Framework.Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

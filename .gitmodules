@@ -1,0 +1,3 @@
+[submodule "Interfaces/BGME"]
+	path = Interfaces/BGME
+	url = https://github.com/T-PoseRatkechi/BGME.git
