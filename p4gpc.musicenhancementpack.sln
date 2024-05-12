@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p4gpc.musicenhancementpack"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BGME.Framework.Interfaces", "..\..\..\..\source\repos\BGME\BGME.Framework.Interfaces\BGME.Framework.Interfaces.csproj", "{B7E2F193-0248-4BE7-B37F-90B61294CE50}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriFs.V2.Hook.Interfaces", "Interfaces\CriFs.V2.Hook.ReloadedII\Interfaces\CriFs.V2.Hook.Interfaces\CriFs.V2.Hook.Interfaces.csproj", "{25447233-9232-4D92-87D0-257AAD315D0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B7E2F193-0248-4BE7-B37F-90B61294CE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E2F193-0248-4BE7-B37F-90B61294CE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7E2F193-0248-4BE7-B37F-90B61294CE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25447233-9232-4D92-87D0-257AAD315D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25447233-9232-4D92-87D0-257AAD315D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25447233-9232-4D92-87D0-257AAD315D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25447233-9232-4D92-87D0-257AAD315D0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,8 @@ using p4gpc.musicenhancementpack.Template;
 using Reloaded.Hooks.ReloadedII.Interfaces;
 using Reloaded.Mod.Interfaces;
 using BGME.Framework.Interfaces;
+using CriFs.V2.Hook;
+using CriFs.V2.Hook.Interfaces;
 
 namespace p4gpc.musicenhancementpack
 {
@@ -59,6 +61,13 @@ namespace p4gpc.musicenhancementpack
             // and some other neat features, override the methods in ModBase.
 
             // TODO: Implement some mod logic
+
+            var criFsController = _modLoader.GetController<ICriFsRedirectorApi>();
+            if (criFsController == null || !criFsController.TryGetTarget(out var criFsApi))
+            {
+                _logger.WriteLine($"criFsController returned as null! p4gpc.musicenhancementpack will not work properly!", System.Drawing.Color.Red);
+                return;
+            }
 
             var BGMEController = _modLoader.GetController<IBgmeApi>().TryGetTarget(out var bgmeApi);
 
@@ -144,6 +153,20 @@ namespace p4gpc.musicenhancementpack
             }
 
             bgmeApi.AddFolder(Path.Combine(modDir, "BGME"));
+
+            // check for Anime Music Expansion
+            var allMods = this._modLoader.GetActiveMods();
+            if (allMods.Any(x => x.Generic.ModId == "p4gpc.animemusicexpansion") == false)
+            {
+                // add modified events
+                criFsApi.AddProbingPath("Events");
+
+            }
+
+            else
+            {
+                this._logger.WriteLine("p4gpc.animemusicexpansion detected. Enabling compatibility mode for p4gpc.musicenhancementpack.", System.Drawing.Color.Green);
+            }
         }
 
         #region Standard Overrides
