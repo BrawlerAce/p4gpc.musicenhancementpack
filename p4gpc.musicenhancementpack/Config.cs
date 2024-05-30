@@ -94,7 +94,7 @@ namespace p4gpc.musicenhancementpack.Configuration
 
         [Category("Locations")]
         [DisplayName("\"Poem for Everyone's Souls\" version")]
-        [Description("Plays during the superboss battle.\n\nOriginal: Plays the original version of \"Poem for Everyone's Souls\".\nReload: Plays \"Poem for Everyone's Souls -Reload-\" from Persona 3 Reload.")]
+        [Description("Plays in the Velvet Room.\n\nOriginal: Plays the original version of \"Poem for Everyone's Souls\".\nReload: Plays \"Poem for Everyone's Souls -Reload-\" from Persona 3 Reload.")]
         [DefaultValue(Aria.Original)]
         public Aria AriaVersion { get; set; } = Aria.Original;
 
