@@ -65,11 +65,6 @@ encounter["Kusumi-no-Okami"]:
 	music = "default"
 end
 
-// Margaret: The Battle For Everyone's Souls
-encounter["Margaret"]:
-	music = 693
-end
-
 // === Miniboss overrides ===
 
 // Void Quest Miniboss: TTMH BitLemur
