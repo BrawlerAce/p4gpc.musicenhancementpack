@@ -65,6 +65,11 @@ encounter["Kusumi-no-Okami"]:
 	music = "default"
 end
 
+// Izanami-no-Okami - Myriad Truths: Traumerei -Reincarnation-
+//encounter[533]:
+//	music = 813
+//end
+
 // === Miniboss overrides ===
 
 // Void Quest Miniboss: TTMH BitLemur

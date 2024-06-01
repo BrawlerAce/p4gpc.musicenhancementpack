@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("p4gpc.musicenhancementpack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e1efa208876b6083148662060374aaaf47e24ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee1ec02d5fef128fdde4c0703aed2f941b19e82c")]
 [assembly: System.Reflection.AssemblyProductAttribute("p4gpc.musicenhancementpack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("p4gpc.musicenhancementpack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
