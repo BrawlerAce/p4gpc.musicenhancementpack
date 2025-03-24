@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net7.0-windows7.0": {
+      "BGME.Framework.Interfaces/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/BGME.Framework.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/BGME.Framework.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CriFs.V2.Hook.Interfaces/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CriFsV2Lib.Definitions": "1.1.0"
+        },
+        "compile": {
+          "lib/net7.0/CriFs.V2.Hook.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/CriFs.V2.Hook.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CriFsV2Lib.Definitions/1.1.0": {
         "type": "package",
         "compile": {
@@ -56,33 +85,40 @@
             "related": ".xml"
           }
         }
-      },
-      "BGME.Framework.Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/BGME.Framework.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BGME.Framework.Interfaces.dll": {}
-        }
-      },
-      "CriFs.V2.Hook.Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "CriFsV2Lib.Definitions": "1.1.0"
-        },
-        "compile": {
-          "bin/placeholder/CriFs.V2.Hook.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CriFs.V2.Hook.Interfaces.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "BGME.Framework.Interfaces/1.0.0": {
+      "sha512": "ScLbNr92X5jnBoRbzbSUJ+PcTVK6bSP7FITPi4u1VDVIyxmYpHa4VnYNqzHkrSaCVW34Iphi5dlrbbI0LWdeSA==",
+      "type": "package",
+      "path": "bgme.framework.interfaces/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bgme.framework.interfaces.1.0.0.nupkg.sha512",
+        "bgme.framework.interfaces.nuspec",
+        "lib/net7.0/BGME.Framework.Interfaces.dll",
+        "lib/net7.0/BGME.Framework.Interfaces.xml",
+        "lib/net8.0/BGME.Framework.Interfaces.dll",
+        "lib/net8.0/BGME.Framework.Interfaces.xml"
+      ]
+    },
+    "CriFs.V2.Hook.Interfaces/1.0.0": {
+      "sha512": "jCfxl9B6j04s7j+++eTEaq1Z4n3XvjogC1w32Mnbn5S5pHUQe5sBQHRlvU5eazEc/0t7zOAMawpQaciAL0SgTw==",
+      "type": "package",
+      "path": "crifs.v2.hook.interfaces/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "crifs.v2.hook.interfaces.1.0.0.nupkg.sha512",
+        "crifs.v2.hook.interfaces.nuspec",
+        "lib/net7.0/CriFs.V2.Hook.Interfaces.dll",
+        "lib/net7.0/CriFs.V2.Hook.Interfaces.xml"
+      ]
+    },
     "CriFsV2Lib.Definitions/1.1.0": {
       "sha512": "hPvJ4DR16lVSYHSddUsMTUQLajCALhNA+GDfAY0VMa4xSvBOEbZeCuj2tYO8GqeQMyiosL0/aRaFZ2OgFefRKA==",
       "type": "package",
@@ -144,16 +180,6 @@
         "reloaded.sharedlib.hooks.1.9.0.nupkg.sha512",
         "reloaded.sharedlib.hooks.nuspec"
       ]
-    },
-    "BGME.Framework.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../../../../../source/repos/BGME/BGME.Framework.Interfaces/BGME.Framework.Interfaces.csproj",
-      "msbuildProject": "../../../../../source/repos/BGME/BGME.Framework.Interfaces/BGME.Framework.Interfaces.csproj"
-    },
-    "CriFs.V2.Hook.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../Interfaces/CriFs.V2.Hook.ReloadedII/Interfaces/CriFs.V2.Hook.Interfaces/CriFs.V2.Hook.Interfaces.csproj",
-      "msbuildProject": "../Interfaces/CriFs.V2.Hook.ReloadedII/Interfaces/CriFs.V2.Hook.Interfaces/CriFs.V2.Hook.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -190,26 +216,32 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {
-            "C:\\Users\\Brawler\\Documents\\GitHub\\PersonaModConfigs\\p4gpc.musicenhancementpack\\Interfaces\\CriFs.V2.Hook.ReloadedII\\Interfaces\\CriFs.V2.Hook.Interfaces\\CriFs.V2.Hook.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Brawler\\Documents\\GitHub\\PersonaModConfigs\\p4gpc.musicenhancementpack\\Interfaces\\CriFs.V2.Hook.ReloadedII\\Interfaces\\CriFs.V2.Hook.Interfaces\\CriFs.V2.Hook.Interfaces.csproj"
-            },
-            "C:\\Users\\Brawler\\source\\repos\\BGME\\BGME.Framework.Interfaces\\BGME.Framework.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Brawler\\source\\repos\\BGME\\BGME.Framework.Interfaces\\BGME.Framework.Interfaces.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net7.0-windows7.0": {
         "targetAlias": "net7.0-windows",
         "dependencies": {
+          "BGME.Framework.Interfaces": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "CriFs.V2.Hook.Interfaces": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Reloaded.Mod.Interfaces": {
             "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "target": "Package",
@@ -236,7 +268,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

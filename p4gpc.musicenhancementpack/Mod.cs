@@ -75,31 +75,27 @@ namespace p4gpc.musicenhancementpack
 
             if (_configuration.ROTTTVersion == Config.ROTTT.Original)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "ROTTT_Base"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "ROTTT_Base"));
             }
 
             if (_configuration.ROTTTVersion == Config.ROTTT.Reincarnation)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "ROTTT_NM"));
-            }
-
-            if (_configuration.FogVersion == Config.Fog.Original)
-            {
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "ROTTT_NM"));
             }
 
             if (_configuration.FogVersion == Config.Fog.ATLUSKonishiRemix)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Fog_Konishi"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Fog_Konishi"));
             }
 
             if (_configuration.AquaVersion == Config.Aqua.Original)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Aqua_Original"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Aqua_Original"));
             }
 
             if (_configuration.AquaVersion == Config.Aqua.Reload)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Aqua_Reload"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Aqua_Reload"));
             }
 
             if (_configuration.BacksideVersion == Config.Backside.Original)
@@ -108,7 +104,7 @@ namespace p4gpc.musicenhancementpack
 
             if (_configuration.BacksideVersion == Config.Backside.LotusJuiceRemix)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Backside_LJ"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Backside_LJ"));
             }
 
             if (_configuration.AriaVersion == Config.Aria.Original)
@@ -117,7 +113,7 @@ namespace p4gpc.musicenhancementpack
 
             if (_configuration.AriaVersion == Config.Aria.Reload)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Aria_Reload"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Aria_Reload"));
             }
 
             if (_configuration.TanakaVersion == Config.Tanaka.Original)
@@ -126,7 +122,7 @@ namespace p4gpc.musicenhancementpack
 
             if (_configuration.TanakaVersion == Config.Tanaka.Reload)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Tanaka_Reload"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Tanaka_Reload"));
             }
 
             if (_configuration.JoyVersion == Config.Joy.Original)
@@ -135,7 +131,7 @@ namespace p4gpc.musicenhancementpack
 
             if (_configuration.JoyVersion == Config.Joy.Reload)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Joy_Reload"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Joy_Reload"));
             }
 
             if (_configuration.EscapadeVersion == Config.Escapade.Original)
@@ -144,15 +140,15 @@ namespace p4gpc.musicenhancementpack
 
             if (_configuration.EscapadeVersion == Config.Escapade.PersonaDancing)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Escapade_PersonaDancing"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Escapade_PersonaDancing"));
             }
 
             if (_configuration.EscapadeVersion == Config.Escapade.Reload)
             {
-                bgmeApi.AddFolder(Path.Combine(modDir, "BGME_Config", "Escapade_Reload"));
+                bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Escapade_Reload"));
             }
 
-            bgmeApi.AddFolder(Path.Combine(modDir, "BGME"));
+            bgmeApi.AddPath(Path.Combine(modDir, "BGME"));
 
             // check for Anime Music Expansion
             var allMods = this._modLoader.GetActiveMods();

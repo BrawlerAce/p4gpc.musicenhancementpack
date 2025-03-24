@@ -43,6 +43,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BGME.Framework.Interfaces" Version="1.0.0" />
+    <PackageReference Include="CriFs.V2.Hook.Interfaces" Version="1.0.0" />
     <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />
     <PackageReference Include="Reloaded.SharedLib.Hooks" Version="1.9.0" />
   </ItemGroup>
@@ -60,11 +62,6 @@
     <Content Include="P5REssentials\**">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\source\repos\BGME\BGME.Framework.Interfaces\BGME.Framework.Interfaces.csproj" />
-    <ProjectReference Include="..\Interfaces\CriFs.V2.Hook.ReloadedII\Interfaces\CriFs.V2.Hook.Interfaces\CriFs.V2.Hook.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

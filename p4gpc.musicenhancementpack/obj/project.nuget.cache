@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s/uIZA7Fg5IKJ5qZp0NblQzWhXpBBbE28Eq+HVQ3ijQ0qWUb3IPxrBnX685XucFE2u8lZP8EXLzBeok/1NyB1A==",
+  "dgSpecHash": "OsQJ/Q/LJCE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Brawler\\Documents\\GitHub\\PersonaModConfigs\\p4gpc.musicenhancementpack\\p4gpc.musicenhancementpack\\p4gpc.musicenhancementpack.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Brawler\\.nuget\\packages\\bgme.framework.interfaces\\1.0.0\\bgme.framework.interfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\Brawler\\.nuget\\packages\\crifs.v2.hook.interfaces\\1.0.0\\crifs.v2.hook.interfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\Brawler\\.nuget\\packages\\crifsv2lib.definitions\\1.1.0\\crifsv2lib.definitions.1.1.0.nupkg.sha512",
     "C:\\Users\\Brawler\\.nuget\\packages\\reloaded.hooks.definitions\\1.11.0\\reloaded.hooks.definitions.1.11.0.nupkg.sha512",
     "C:\\Users\\Brawler\\.nuget\\packages\\reloaded.mod.interfaces\\2.4.0\\reloaded.mod.interfaces.2.4.0.nupkg.sha512",

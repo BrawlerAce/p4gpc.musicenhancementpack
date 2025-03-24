@@ -14,7 +14,6 @@ C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p
 C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\p4gpc.musicenhancementpack.AssemblyInfo.cs
 C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\p4gpc.musicenhancementpack.csproj.CoreCompileInputs.cache
 C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\p4gpc.musicenhancementpack.sourcelink.json
-C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\p4gpc.musicenhancementpack.csproj.CopyComplete
 C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\p4gpc.musicenhancementpack.dll
 C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\refint\p4gpc.musicenhancementpack.dll
 C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\p4gpc.musicenhancementpack.pdb
@@ -27,33 +26,39 @@ C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenh
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Joy_Reload\Joy_Reload.pme
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Tanaka_Reload\Tanaka_Reload.pme
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\MusicEnhancementPack.project
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\MusicEnhancementPack.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\MusicEnhancementPack.project
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Aqua_Original\Aqua_Original.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Aqua_Reload\Aqua_Reload.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Aria_Reload\Aria_Reload.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Backside_LJ\Backside_LJ.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Escapade_PersonaDancing\Escapade_PersonaDancing.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Escapade_Reload\Escapade_Reload.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Fog_Konishi\Fog_Konishi.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Joy_Reload\Joy_Reload.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\ROTTT_Base\ROTTT_Base.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\ROTTT_NM\ROTTT_NM.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME_Config\Tanaka_Reload\Tanaka_Reload.pme
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\Events\data.cpk\event\e450\E455_506.PM3
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\Events\data.cpk\event\e450\E455_507.PM3
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e490\E492_503.PM3
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e490\E492_509.PM3
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e740\E740_580.PM3
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\Preview.png
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e440\E440_001.PM3
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\ModConfig.json
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack.deps.json
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack.dll
-C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack.pdb
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\Events\data.cpk\event\e450\E455_506.PM3
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\Events\data.cpk\event\e450\E455_507.PM3
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e490\E492_503.PM3
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e490\E492_509.PM3
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e740\E740_580.PM3
 C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e440\E440_001.PM3
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\028_GirlOfTheHollowForest_unknown.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\077_MusicPlayer_TimeToMakeHistory_rudiger.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10100_ReachOutToTheTruth_rudiger.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10101_TimeToMakeHistory_rudiger.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10102_ReachOutToTheTruth.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10103_ReachOutToTheTruth_144mL.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10104_TimeToMakeHistory_BitLemur.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10105_Memory.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10106_Memory_unknown.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10107_LightTheFireUpInTheNight.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10108_FOE.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10109_TimeToMakeHistory_special.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10110_Memory_special.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10111_RememberWeGotYourBack.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10112_ReachOutToTheTruth_P4A.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10113_YingYang.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10114_AquaInvitation.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10115_BacksideOfTheTV_LotusJuice.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10116_TheFog_Konishi.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10117_AquaInvitation_Reload.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10118_PoemForEveryonesSouls_Reload.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10119_JikaNetTanaka_Reload.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10120_Joy_Reload.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10121_PersonaDancing.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10122_Everyoneloves1989.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10123_JustLikeTheWind_instrumental.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\10124_JustLikeTheWind.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\BGME\P4G\snd00_bgm.awb\9038_Traumerei_Reincarnation.hca
+C:\Users\Brawler\Desktop\Persona\Persona Modding\Reloaded-II\Mods\p4gpc.musicenhancementpack\P5REssentials\CPK\data.cpk\event\e440\E440_001\E440_001.PM3.json
+C:\Users\Brawler\Documents\GitHub\PersonaModConfigs\p4gpc.musicenhancementpack\p4gpc.musicenhancementpack\obj\Debug\p4gpc.mu.31E2C097.Up2Date
