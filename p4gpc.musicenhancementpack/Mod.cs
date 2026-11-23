@@ -78,9 +78,13 @@ namespace p4gpc.musicenhancementpack
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "ROTTT_Base"));
             }
 
-            if (_configuration.ROTTTVersion == Config.ROTTT.Reincarnation)
+            else if (_configuration.ROTTTVersion == Config.ROTTT.Reincarnation)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "ROTTT_NM"));
+            }
+
+            else if (_configuration.ROTTTVersion == Config.ROTTT.Default)
+            {
             }
 
             if (_configuration.FogVersion == Config.Fog.ATLUSKonishiRemix)
@@ -93,16 +97,20 @@ namespace p4gpc.musicenhancementpack
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Aqua_Original"));
             }
 
-            if (_configuration.AquaVersion == Config.Aqua.Reload)
+            else if (_configuration.AquaVersion == Config.Aqua.Reload)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Aqua_Reload"));
+            }
+
+            else if (_configuration.AquaVersion == Config.Aqua.Default)
+            {
             }
 
             if (_configuration.BacksideVersion == Config.Backside.Original)
             {
             }
 
-            if (_configuration.BacksideVersion == Config.Backside.LotusJuiceRemix)
+            else if (_configuration.BacksideVersion == Config.Backside.LotusJuiceRemix)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Backside_LJ"));
             }
@@ -111,7 +119,7 @@ namespace p4gpc.musicenhancementpack
             {
             }
 
-            if (_configuration.AriaVersion == Config.Aria.Reload)
+            else if (_configuration.AriaVersion == Config.Aria.Reload)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Aria_Reload"));
             }
@@ -120,7 +128,7 @@ namespace p4gpc.musicenhancementpack
             {
             }
 
-            if (_configuration.TanakaVersion == Config.Tanaka.Reload)
+            else if (_configuration.TanakaVersion == Config.Tanaka.Reload)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Tanaka_Reload"));
             }
@@ -129,7 +137,7 @@ namespace p4gpc.musicenhancementpack
             {
             }
 
-            if (_configuration.JoyVersion == Config.Joy.Reload)
+            else if (_configuration.JoyVersion == Config.Joy.Reload)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Joy_Reload"));
             }
@@ -138,12 +146,12 @@ namespace p4gpc.musicenhancementpack
             {
             }
 
-            if (_configuration.EscapadeVersion == Config.Escapade.PersonaDancing)
+            else if (_configuration.EscapadeVersion == Config.Escapade.PersonaDancing)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Escapade_PersonaDancing"));
             }
 
-            if (_configuration.EscapadeVersion == Config.Escapade.Reload)
+            else if (_configuration.EscapadeVersion == Config.Escapade.Reload)
             {
                 bgmeApi.AddPath(Path.Combine(modDir, "BGME_Config", "Escapade_Reload"));
             }
@@ -156,7 +164,6 @@ namespace p4gpc.musicenhancementpack
             {
                 // add modified events
                 criFsApi.AddProbingPath("Events");
-
             }
 
             else
